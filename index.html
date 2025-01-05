@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card for BF</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        }
+        .card {
+            width: 300px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h1 {
+            font-size: 1.8em;
+            margin: 20px 0 10px;
+            color: #333;
+        }
+        .card p {
+            font-size: 1em;
+            margin: 0 20px 20px;
+            color: #555;
+        }
+        .card button {
+            background: #ff6b81;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .card button:hover {
+            background: #ff4757;
+        }
+    </style>
+    <script>
+        function showMessage() {
+            alert('I Love You! ❤️');
+        }
+    </script>
+</head>
+<body>
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?love,romance" alt="Love Image">
+        <h1>To My Love</h1>
+        <p>You bring so much happiness into my life. Thank you for being my everything. ❤️</p>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+</body>
+</html>
